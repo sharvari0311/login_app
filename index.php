@@ -33,6 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Login Page</title>
 </head>
 <body>
+    <p>Changed file</p>
     <div class="container">
         <h2>Login</h2>
         <form action="" method="post">
@@ -46,3 +47,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 </body>
 </html>
+
+
