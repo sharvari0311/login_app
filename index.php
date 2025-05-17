@@ -2,6 +2,8 @@
 // index.php
 session_start();
 include('db.php');
+//learnign branchhedd
+
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
@@ -33,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Login Page</title>
 </head>
 <body>
-    <p>Changed file</p>
+    <p>Changed file2</p>
     <div class="container">
         <h2>Login</h2>
         <form action="" method="post">
